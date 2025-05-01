@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUNA NOIR | Premium Sensory Dining</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-black text-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="brand-text">LUNA NOIR</span>
+                <span class="brand-subtext">| Sensory Dining Experience</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reservations">Reservations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Hero Video Section -->
+    <section class="hero-section">
+        <div class="video-background">
+            <video autoplay muted loop id="heroVideo">
+                <source src="20131338-hd_1920_1080_25fps.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content text-center">
+            <h1 class="display-1 fw-bold mb-4">LUNA NOIR</h1>
+            <p class="lead mb-5">A culinary journey where your senses awaken in complete darkness</p>
+            <a href="#reservations" class="btn btn-outline-light btn-lg px-5 py-3">RESERVE NOW</a>
+        </div>
+        <div class="scroll-indicator">
+
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5 section-fade">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 class="section-title mb-4">THE EXPERIENCE</h2>
+                    <p class="lead">Leave your sight at the door and embark on a sensory adventure like no other.</p>
+                    <p>Our Michelin-starred chefs craft exquisite dishes designed to be experienced without visual cues,
+                        heightening your other senses. You'll be guided through each course by our expert staff in a
+                        pitch-black dining room.</p>
+                    <div class="experience-features mt-5">
+                        <div class="feature-item">
+                            <i class="fas fa-utensils"></i>
+                            <span>5-course tasting menu</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-blind"></i>
+                            <span>Complete darkness</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-wine-glass-alt"></i>
+                            <span>Wine pairings</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="experience-video ratio ratio-16x9">
+                        <video autoplay muted loop>
+                            <source src="3298229-uhd_4096_2160_25fps.mp4" type="video/mp4">
+                        </video>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5 bg-dark section-fade">
+    <div class="container py-5">
+        <h2 class="section-title text-center mb-5">MYSTERY MENU</h2>
+        <p class="text-center mb-5">Our menu changes seasonally and remains a secret until you experience it. Here's a
+            glimpse of what you might encounter:</p>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="menu-item card h-100 border-0 bg-transparent">
+                    <div class="card-img-top menu-item-img" style="background-image: url('Earthy.img.jpg');"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">Ocean's Whisper</h3>
+                        <p class="card-text">A delicate composition of textures from the sea</p>
+                        <div class="flavor-profile">
+                            <span class="flavor-tag">Salty</span>
+                            <span class="flavor-tag">Umami</span>
+                            <span class="flavor-tag">Cool</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item card h-100 border-0 bg-transparent">
+                    <div class="card-img-top menu-item-img" style="background-image: url('assets/images/dish2.jpg');">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Forest Floor</h3>
+                        <p class="card-text">Earthy aromas with unexpected bursts of flavor</p>
+                        <div class="flavor-profile">
+                            <span class="flavor-tag">Earthy</span>
+                            <span class="flavor-tag">Sweet</span>
+                            <span class="flavor-tag">Crunchy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item card h-100 border-0 bg-transparent">
+                    <div class="card-img-top menu-item-img" style="background-image: url('assets/images/dish3.jpg');">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Cloud Nine</h3>
+                        <p class="card-text">A dessert that defies expectations</p>
+                        <div class="flavor-profile">
+                            <span class="flavor-tag">Sweet</span><span class="flavor-tag">Creamy</span>
+                            <span class="flavor-tag">Airy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 section-fade">
+        <div class="container py-5">
+            <h2 class="section-title text-center mb-5">GALLERY</h2>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                        <img src="nr-vellarine-lc-RbsnQO8M-unsplash.jpg" alt="Dish 1" class="img-fluid">
+                        <div class="gallery-overlay">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                        <img src="Earthy.img.jpg" alt="Dish 2" class="img-fluid">
+                        <div class="gallery-overlay">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                        <img src="nadia-valko-0hAdietsUrE-unsplash.jpg" alt="Dish 3" class="img-fluid">
+                        <div class="gallery-overlay">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-dark section-fade">
+        <div class="container py-5">
+            <h2 class="section-title text-center mb-5">GUEST EXPERIENCES</h2>
+
+            <div class="testimonial-carousel owl-carousel owl-theme">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"An unforgettable experience that changed how I perceive flavor. Without sight, every bite
+                            became an adventure."</p>
+                        <div class="testimonial-author">
+                            <h4>Sarah J.</h4>
+                            <span>Food Critic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"I've dined at Michelin-starred restaurants worldwide, but nothing compares to this sensory
+                            journey."</p>
+                        <div class="testimonial-author">
+                            <h4>Michael T.</h4>
+                            <span>Travel Blogger</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"The staff's guidance through the darkness was impeccable. I felt completely safe and
+                            immersed in the experience."</p>
+                        <div class="testimonial-author">
+                            <h4>Emma L.</h4>
+                            <span>First-time Guest</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Reservations Section -->
+    <section id="reservations" class="py-5 section-fade">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 class="section-title mb-4">RESERVATIONS</h2>
+                    <p class="lead">Secure your sensory journey</p>
+                    <p>Due to the intimate nature of our dining experience, we have limited seating available each
+                        evening. Reservations are required at least 48 hours in advance.</p>
+
+                    <div class="reservation-details mt-5">
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h5>Hours</h5>
+                                <p>Tuesday - Sunday: 6PM - 11PM</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h5>Location</h5>
+                                <p>123 Sensory Lane, Italy</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <h5>Contact</h5>
+                                <p> 123 4567 890</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="reservation-form card bg-dark border-0">
+                        <div class="card-body p-4">
+                            <h3 class="card-title mb-4">Book Your Experience</h3>
+                            <form id="bookingForm">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Full Name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="tel" class="form-control" placeholder="Phone" required>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <input type="date" class="form-control" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select class="form-select" required>
+                                            <option value="">Time</option>
+                                            <option>6:00 PM</option>
+                                            <option>6:30 PM</option>
+                                            <option>7:00 PM</option>
+                                            <option>7:30 PM</option>
+                                            <option>8:00 PM</option>
+                                            <option>8:30 PM</option>
+                                            <option>9:00 PM</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <select class="form-select" required>
+                                        <option value="">Party Size</option>
+                                        <option>1 Person</option>
+                                        <option>2 People</option>
+                                        <option>3 People</option>
+                                        <option>4 People</option>
+                                        <option>5 People</option>
+                                        <option>6 People</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="dietaryCheck">
+                                    <label class="form-check-label" for="dietaryCheck">Any dietary restrictions?</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 py-3">RESERVE NOW</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h3 class="footer-brand mb-3">LUNA NOIR</h3>
+                    <p>A sensory dining experience like no other.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h4 class="footer-heading mb-3">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#reservations">Reservations</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="footer-heading mb-3">Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                    <div class="newsletter mt-3">
+                        <p>Subscribe for exclusive offers</p>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email">
+                            <button class="btn btn-outline-light" type="button">Join</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 LUNA NOIR. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-light me-3">Privacy Policy</a>
+                    <a href="#" class="text-light">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Audio Player -->
+    <div class="audio-player">
+        <button id="audioToggle" class="btn btn-sm btn-outline-light">
+            <i class="fas fa-volume-up"></i> Ambience
+        </button>
+        <audio id="ambientAudio" loop>
+            <source src="a801937__josefpres__piano-loops-033-efect-4-octave-long-loop-120-bpm.wav" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Gallery Modal -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="" id="modalImage" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+        
+     </body>
+</html>
